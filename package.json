@@ -1,0 +1,32 @@
+{
+  "name": "react-native-ibm-analytics",
+  "version": "1.0.0",
+  "description": "React Native module for IBM Mobile Analytics",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwcremin/react-native-ibm-analytics.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "analytics",
+    "ios",
+    "android",
+    "mobile"
+  ],
+  "author": "Patrick Cremin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwcremin/react-native-ibm-analytics/issues"
+  },
+  "homepage": "https://github.com/pwcremin/react-native-ibm-analytics#readme"
+}`
