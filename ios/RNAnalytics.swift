@@ -81,7 +81,7 @@ class RNAnalytics: NSObject {
      By default, the Logger class will print its logs to Xcode console. If is advised to disable Logger output for applications built in release mode. In order to do so add a debug flag named RELEASE_BUILD to your release build configuration. One way of doing so is adding -D RELEASE_BUILD to the Other Swift Flags section of the project build configuration.
  */
   // TODO [patrick] the callback can only occur once, so if there are 2 errors only the first will be reported in the callback.  If this is a big issue then use events instead of a callback (or a something that waits for both sends to complete)
-  @objc func send( errorCallback: @escaping RCTResponseSenderBlock ) -> Void {
+  @objc func send(_ errorCallback: @escaping RCTResponseSenderBlock ) -> Void {
     Logger.send(completionHandler: { (response: Response?, error: Error?) in
       if let response = response {
         self.logger.debug(message: "Status code: \(String(describing: response.statusCode))")
